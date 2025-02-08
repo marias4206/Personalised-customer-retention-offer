@@ -28,16 +28,6 @@ The primary users are the ISP's marketing and customer support teams, who intera
 
 The solution is designed for cloud deployment, ensuring scalability, accessibility, and ease of integration with existing ISP systems. Churn prediction and offer generation are typically performed monthly, prior to the start of the off-season, allowing for proactive intervention.
 
-```python
-# Example of a simplified churn prediction function (Illustrative - requires a trained ML model)
-def predict_churn(usage_data, demographics):
-    # In a real-world scenario, this would involve a trained ML model (e.g., Random Forest, Gradient Boosting)
-    # The function would take feature vectors derived from usage_data and demographics as input
-    # and return a churn probability.
-    if usage_data['peak_usage'] > 100 and usage_data['off_season_usage'] < 20:
-        return 0.8  # 80% churn probability
-    else:
-        return 0.2
 
 ## Data sources and AI methods
 
